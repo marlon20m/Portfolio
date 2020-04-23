@@ -137,3 +137,14 @@ table {
 .container > div {
   width: 300px;
 }
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: gray;
+}
+
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+}

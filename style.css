@@ -148,3 +148,8 @@ table {
 .container p-3 my-3 bg-dark text-white {
   text-align: center;
 }
+
+body {
+  background: url(images/stars.jpg);
+  background-size: cover;
+}

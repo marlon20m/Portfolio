@@ -129,7 +129,11 @@ table {
 }
 
 .container {
-  border: 5px solid #ffcc5c;
+  border: 5px solid gray;
   display: flex;
   flex-wrap: wrap;
+}
+
+.container > div {
+  width: 300px;
 }

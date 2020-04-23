@@ -153,3 +153,7 @@ body {
   background: url(images/stars.jpg);
   background-size: cover;
 }
+
+h1 {
+  text-align: center;
+}

@@ -1,30 +1,38 @@
 .container {
-    border: 5px solid gray;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .container > div {
-    width: 300px;
-  }
-  
-  .container > div {
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: gray;
-  }
-  
-  .container-1{
-      display: flex;
-  }
-  
-  body {
-    background: url(images/stars.jpg);
-    background-size: cover;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
+  border: 5px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: 300px;
+}
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: gray;
+}
+
+.container-1 {
+  display: flex;
+}
+
+.box-1 {
+  flex: 1;
+  order: 1;
+}
+
+.box-2 {
+  flex: 2;
+  order: 2;
+}
+body {
+  background: url(images/stars.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}

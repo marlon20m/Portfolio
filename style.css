@@ -15,8 +15,8 @@
     color: gray;
   }
   
-  .container p-3 my-3 bg-dark text-white {
-    text-align: center;
+  .container-1{
+      display: flex;
   }
   
   body {

@@ -17,6 +17,7 @@
 
 .container-1 {
   display: flex;
+  flex-direction: column;
 }
 
 .container-3 {
@@ -24,13 +25,11 @@
 }
 
 .box-1 {
-  flex: 1;
-  order: 1;
+  flex: 2;
 }
 
 .box-2 {
   flex: 2;
-  order: 2;
 }
 body {
   background: url(images/stars.jpg);

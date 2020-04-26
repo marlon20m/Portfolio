@@ -19,6 +19,10 @@
   display: flex;
 }
 
+.container-3 {
+  display: flex;
+}
+
 .box-1 {
   flex: 1;
   order: 1;

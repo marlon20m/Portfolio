@@ -1,5 +1,4 @@
 .container {
-  border: 5px solid gray;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -17,10 +16,12 @@
   justify-content: center;
 }
 
-.container-3 {
+
   display: flex;
+  flex-wrap: wrap;
   margin-top: 8%;
   justify-content: center;
+  text-align: center;
 }
 
 .box-1 {

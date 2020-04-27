@@ -10,39 +10,19 @@
   display: flex;
   justify-content: center;
 }
+
+.container {
+  flex-direction: column;
+}
+
+.card {
+  flex-wrap: wrap;
+}
+
 .card-text {
   color: black;
 }
-@include media-breakpoint-up(sm) {
-  .card {
-    display: block;
-  }
-}
 
-@include media-breakpoint-up(md) {
-  .card {
-    display: block;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .card {
-    display: block;
-  }
-}
-
-@include media-breakpoint-up(xl) {
-  .card {
-    display: block;
-  }
-}
-.box-1 {
-  flex: 2;
-}
-
-.box-2 {
-  flex: 2;
-}
 body {
   background: url(images/stars.jpg);
   background-size: cover;

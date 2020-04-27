@@ -1,4 +1,4 @@
-.container {
+.container-bg-1 {
   border: 5px solid gray;
   display: flex;
   flex-wrap: wrap;
@@ -6,18 +6,34 @@
   justify-content: center;
 }
 
-.container > div {
-  padding: 6px;
-  text-align: center;
-  font-size: 2em;
-  color: gray;
-}
-
 .container-fluid {
   display: flex;
   justify-content: center;
 }
 
+@include media-breakpoint-up(sm) {
+  .card {
+    display: block;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .card {
+    display: block;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .card {
+    display: block;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .card {
+    display: block;
+  }
+}
 .box-1 {
   flex: 2;
 }

@@ -1,5 +1,5 @@
-.bg-dark {
-  border-: 5px solid gray;
+.container {
+  border: 5px solid gray;
   display: flex;
   flex-wrap: wrap;
   text-align: center;

@@ -10,7 +10,9 @@
   display: flex;
   justify-content: center;
 }
-
+.card-text {
+  color: black;
+}
 @include media-breakpoint-up(sm) {
   .card {
     display: block;

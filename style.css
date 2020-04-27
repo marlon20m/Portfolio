@@ -29,6 +29,10 @@
   color: black;
 }
 
+.footer {
+  position: relative;
+}
+
 body {
   background: url(images/stars.jpg);
   background-size: cover;

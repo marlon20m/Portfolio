@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-  
 }
 
 .container > div {
@@ -14,7 +13,7 @@
   color: gray;
 }
 
-.container-1 {
+.container-fluid {
   display: flex;
   justify-content: center;
 }
